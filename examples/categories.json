@@ -1,0 +1,16 @@
+{
+    "categories": [
+        {
+            "name": "spam",
+            "description": "unwanted message, malicious, phishing"
+        },
+        {
+            "name": "technical",
+            "description": "technical question"
+        },
+        {
+            "name": "billing",
+            "description": "billing related question"
+        }
+    ]
+}
