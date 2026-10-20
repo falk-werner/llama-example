@@ -15,3 +15,6 @@ target_link_libraries(llm_relation PRIVATE PkgConfig::LLAMA)
 
 add_executable(categorize src/categorize.cpp)
 target_link_libraries(categorize PRIVATE PkgConfig::LLAMA nlohmann_json::nlohmann_json)
+
+add_executable(single_prompt src/single_prompt.cpp)
+target_link_libraries(single_prompt PRIVATE PkgConfig::LLAMA nlohmann_json::nlohmann_json)
